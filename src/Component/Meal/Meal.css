@@ -11,3 +11,8 @@
   padding: 0px 20px;
   height: 500px;
 }
+.cart-container {
+  background-color: #ffe0b2;
+  position: sticky;
+  top: 0%;
+}
