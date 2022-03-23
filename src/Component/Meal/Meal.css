@@ -1,0 +1,13 @@
+.containers {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 4fr 1fr;
+}
+.product-container {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 80px;
+  padding: 0px 20px;
+  height: 500px;
+}
