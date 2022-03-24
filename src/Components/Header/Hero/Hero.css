@@ -1,0 +1,23 @@
+.hero {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.hero-info {
+  color: white;
+}
+.paypalButton {
+  height: 40px;
+  border-radius: 8px;
+  border: none;
+  background-color: orange;
+  padding: 0px 10px;
+}
+.pay {
+  color: #002b84;
+  font-weight: bold;
+}
+.pal {
+  color: #0094d3;
+  font-weight: bold;
+}

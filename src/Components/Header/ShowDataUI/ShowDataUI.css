@@ -1,0 +1,15 @@
+.card-info {
+  padding: 5px 5px;
+  border: 1px solid rgba(128, 128, 128, 0.329);
+  border-radius: 8px;
+}
+.card-info img {
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+.color {
+  color: #d57d1f;
+}
+.button {
+  width: 120px;
+}
