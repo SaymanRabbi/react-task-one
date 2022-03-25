@@ -39,6 +39,9 @@ function App() {
       const newDetails = [...details, ProductDetails];
       setDetails(newDetails);
     }
+    else {
+      alert( "Already added")
+    }
   }
   return (
     <div className='app'>
@@ -50,7 +53,7 @@ function App() {
         contentLabel="Example Modal"
       >
         {
-          details.map(detail=> <Cart cart={detail}> </Cart>)
+          details.map(detail=> <Cart cart={detail} key={detail.idMeal}> </Cart>)
        }
        <h1 onClick={closeModal}>X</h1>
       </Modal>
