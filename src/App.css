@@ -3,6 +3,7 @@
 }
 .app {
   background-color: #2d2013;
+  position: relative;
 }
 .App-logo {
   height: 40vmin;
@@ -37,4 +38,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+h1 {
+  cursor: pointer;
+  position: absolute;
+  top: 0%;
+  right: 10px;
 }

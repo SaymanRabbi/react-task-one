@@ -1,0 +1,10 @@
+.cart-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.cart-info img {
+  width: 100px;
+  height: 100px;
+  margin-right: 5px;
+}
