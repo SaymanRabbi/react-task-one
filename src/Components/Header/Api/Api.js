@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import ShowDataUI from '../ShowDataUI/ShowDataUI';
 import './Api.css'
 
-const Api = ({ value }) => {
+const Api = ({ value,clickHandeler }) => {
     const [data,setData]=useState([])
     useEffect(() => {
         fetch(`https://www.themealdb.com/api/json/v1/1/search.php?s=${value}`).then(res=>res.json()).then(data=>setData(data.meals))
@@ -11,7 +11,7 @@ const Api = ({ value }) => {
     return (
         <div className='card-container'>
             {
-                data.map(singeldata=><ShowDataUI data={singeldata} key={singeldata.idMeal}></ShowDataUI>)
+                data.map(singeldata=><ShowDataUI data={singeldata} clickHandeler={clickHandeler} key={singeldata.idMeal}></ShowDataUI>)
             }
         </div>
     );
